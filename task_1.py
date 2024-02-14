@@ -19,7 +19,7 @@ def replace_unknown(date_song, artist, song):
     :param date_song: дата выхода песни
     :param artist: исполнитель песни
     :param song: песня
-    :return:
+    :return: исправленный параметр
     """
     streams = abs((date_of_request - date_song) / (len(artist) + len(song))) * 10000
     return streams

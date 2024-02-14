@@ -12,7 +12,7 @@ def find_song_of_artist(artist, data):
 
     :param artist: исполнитель
     :param data: данные
-    :return:
+    :return: либо False, либо песня артиста
     """
     for d in data:
         if artist in d:

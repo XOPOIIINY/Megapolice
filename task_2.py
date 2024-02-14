@@ -12,7 +12,7 @@ def bubble_sort(data):
     """
 
     :param data: список для сортировки (в формате списка списков)
-    :return:
+    :return: отсортированный список
     """
     for i in range(len(data) - 1):
         for j in range(len(data) - 1):
